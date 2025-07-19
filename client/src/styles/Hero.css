@@ -1,0 +1,160 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+  background-color: #fef4e9;
+  
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1f2d3d;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.get-started,
+.browse-courses {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.get-started {
+  background-color: #ff6600;
+  color: white;
+  font-weight: bold;
+}
+
+.browse-courses {
+  border: 2px solid #ff6600;
+  color: #ff6600;
+  background: transparent;
+  font-weight: bold;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left: -40px; /* move image to the left */
+}
+
+.hero-image img {
+  max-width: 110%;  /* scale up the image */
+  height: auto;
+}
+
+.learner-badge {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background-color: white;
+  color: #1f2d3d;
+  padding: 8px 14px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+}
+
+.learner-badge span {
+  color: #ff6600;
+  font-weight: bold;
+}
+/* Testimonials Section */
+.testimonials {
+  padding: 60px 100px;
+  background-color: hsl(0, 0%, 98%);
+  text-align: center;
+  margin-top: 50px;
+}
+.stars {
+  color: #ffcc00;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.testimonial-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background: white;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 300px;
+  font-style: italic;
+  transition: transform 0.3s;
+}
+
+.testimonial:hover {
+  transform: translateY(-8px);
+}
+
+.testimonial h4 {
+  margin-top: 16px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2d3d;
+  color: #fff;
+  padding: 30px 100px;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  color: #ff6600;
+}
+
+.footer-text {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
