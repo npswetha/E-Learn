@@ -15,17 +15,7 @@ const Footer = () => {
         </div>
 
         
-        {!user && (
-          <div className="footer-links">
-            <h2>Company</h2>
-            <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About us</a></li>
-              <li><a href="/contact">Contact us</a></li>
-              <li><a href="/privacy">Privacy policy</a></li>  
-            </ul>
-          </div>
-        )}
+        
 
         <div className="footer-newsletter">
           <h2>Subscribe to our newsletter</h2>
